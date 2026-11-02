@@ -23,19 +23,14 @@
             via:'',
             color:'{{$theme_config['theme_color']}}',
             default_i18n:'{{$theme_config['theme_default_i18n']}}',
-            node_status_api_url:'{{$theme_config['node_status_api_url'] ?? ''}}',
             plan_custom_html:``,
             nodes_custom_html:``,
             ticket_custom_html:``,
         }
       }
     </script>
-    @if (file_exists(public_path("/theme/{$theme}/assets/custom.js")))
-        <script type="module" crossorigin src="/theme/{{$theme}}/assets/custom.js?v=1.1.13"></script>
-    @endif
     <script type="module" crossorigin src="/theme/{{$theme}}/assets/index.c94482b2.js?v=1.1.13"></script>
     <link rel="stylesheet" href="/theme/{{$theme}}/assets/index.b7e66be0.css?v=1.1.13">
-    <link rel="stylesheet" href="/theme/{{$theme}}/assets/custom.css?v=1.1.13">
     @if (file_exists(public_path("/theme/{{$theme}}/assets/favicon.ico")))
         <link rel="icon" type="image/png" href="/theme/{{$theme}}/favicon.ico">
     @endif
