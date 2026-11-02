@@ -15,8 +15,8 @@
                 "en-US": "English",
                 "ja-JP": "日本語",
                 "ko-KR": "한국어",
-                "vi-VN": "Tiếng Việt",
-                "fa-IR": "فارسی"
+                "vi-VN": "Tiếng Việt"
+                
             },
             "default_value": "zh-CN"
         },
