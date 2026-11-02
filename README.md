@@ -1,10 +1,3 @@
-# vitayr
-适配 V2Board 以及Xboard的前端主题
+v2board前端
 
-## 日志
-1. 修复语言切换
-2. 修复后台面板改色
-3. 修复Surge以及surfboard的订阅导入
-
-## 安装
-下载到theme目录过后要修改当前文件夹名为vitayr，然后在后台选择主题 【vitayr】 就行了
+用cloudflare的Pages部署， 然后添加环境变量 环境变量是 API_URL = 机场网站
